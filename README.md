@@ -49,11 +49,13 @@ Authorization: Bearer SEU_TOKEN_AQUI
 ---
 
 ## ▶️ Como rodar
+## ▶️ Como testar a API
 
-git clone https://github.com/SEU_USUARIO/spring-boot-jwt-auth-api.git  
-cd spring-boot-jwt-auth-api  
-mvn spring-boot:run  
+Execute o projeto localmente e acesse:
 
+- http://localhost:8080/private
+- http://localhost:8080/auth/login?username=pedro&password=123456
+⚠️ Observação: projeto roda localmente (não está deployado ainda)
 ---
 
 ## 🧪 Testes
@@ -64,4 +66,4 @@ Use navegador ou Postman
 
 ## 👨‍💻 Autor
 
-Thiago Mascarenhas
+Pedro Aruanã
